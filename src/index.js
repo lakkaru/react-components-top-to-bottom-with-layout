@@ -15,3 +15,10 @@ root.render(
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
+
+window.addEventListener('message', e => {
+  if (process.env.NODE_ENV !== 'production' && e.data && e.data.type === 'webpackInvalid') {
+      // console.clear();
+      window.location.reload();
+  }
+});
