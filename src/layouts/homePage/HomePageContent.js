@@ -7,7 +7,7 @@ import TrafficGraph from './homePageContent/TrafficGraph'
 
 export default function HomePageContent() {
   return (
-    <div style={{backgroundColor:'#f8f8f8' , width:'100%' , borderRadius:'0px 10px 10px 0px'}}>
+    <div style={{backgroundColor:'#f8f8f8' , width:'100%' , borderRadius:'0px 10px 10px 0px', padding:'15px'}}>
       <PrimaryNav/>
       <hr/>
       <SecndaryNav/>
