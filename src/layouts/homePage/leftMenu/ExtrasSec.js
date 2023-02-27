@@ -1,5 +1,5 @@
 import React from 'react'
-import Components from '../../../components/ComponentSec/Components'
+import Components from '../../../components/componentSec/Components'
 
 export default function ExtrasSec() {
   return (

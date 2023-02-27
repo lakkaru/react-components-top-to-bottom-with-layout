@@ -45,3 +45,7 @@ h1{
   margin: 0;
   padding: 0;
  }
+ hr{
+  border-width: 1px;
+  border-color: rgb(255, 255, 255);
+ }
