@@ -1,9 +1,12 @@
 import React from 'react'
+import Components from './ComponentSec/Components'
 
 export default function ExtrasSec() {
   return (
-    <div>
-      icon extras icon
+    <div style={{textAlign:'left'}}>
+      <label>Extras</label>
+      <Components/>
+      <Components/>
     </div>
   )
 }

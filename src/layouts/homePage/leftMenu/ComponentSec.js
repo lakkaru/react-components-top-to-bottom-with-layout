@@ -1,9 +1,19 @@
-import React from 'react'
+import React from "react";
+import Components from "./ComponentSec/Components";
 
 export default function ComponentSec() {
   return (
-    <div>
-      icon component arrow
+    <div style={{textAlign:'left'}}>
+      <label>Components</label>
+      <Components />
+      <Components />
+      <Components />
+      <Components />
+      <Components />
+      <Components />
+      <Components />
+      <Components />
+      <Components />
     </div>
-  )
+  );
 }
