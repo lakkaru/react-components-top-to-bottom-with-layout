@@ -7,7 +7,7 @@ import ThemeSec from './leftMenu/ThemeSec'
 
 export default function LeftMenu() {
   return (
-    <div style={{backgroundColor:'#3b4b64',color:'white',fontSize:'50%', padding:'10px', borderRadius:'10px 0px 0px 10px'}}>
+    <div style={{backgroundColor:'#3b4b64',color:'white',fontSize:'100%', padding:'0px 10px 0px 10px', borderRadius:'10px 0px 0px 10px', minWidth:'15%'}}>
       <BarandLogo/>
       <DashBoard/>
       <ThemeSec/>

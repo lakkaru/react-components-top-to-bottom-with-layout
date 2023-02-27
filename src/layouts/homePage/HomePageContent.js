@@ -1,22 +1,31 @@
-import React from 'react'
-import OnlineMembers from './homePageContent/OnlineMembers'
-import PrimaryNav from './homePageContent/PrimaryNav'
-import SecndaryNav from './homePageContent/SecondaryNav'
-import SocialStatics from './homePageContent/SocialStatics'
-import TrafficGraph from './homePageContent/TrafficGraph'
+import React from "react";
+import OnlineMembers from "./homePageContent/OnlineMembers";
+import PrimaryNav from "./homePageContent/PrimaryNav";
+import SecndaryNav from "./homePageContent/SecondaryNav";
+import SocialStatics from "./homePageContent/SocialStatics";
+import TrafficGraph from "./homePageContent/TrafficGraph";
 
 export default function HomePageContent() {
   return (
-    <div style={{backgroundColor:'#f8f8f8' , width:'100%' , borderRadius:'0px 10px 10px 0px', padding:'0px 15px 15px 15px'}}>
-      <PrimaryNav/>
-      <hr/>
-      <SecndaryNav/>
-      <hr/>
+    <div
+      style={{
+        backgroundColor: "#ffffff",
+        width: "100%",
+        borderRadius: "0px 10px 10px 0px",
+        
+      }}
+    >
+      <PrimaryNav />
+      <hr />
+      <SecndaryNav />
+      <hr />
       <div>
-      <OnlineMembers/>
-      <TrafficGraph/>
-      <SocialStatics/>
+        <div style={{padding: "0px 20px 5px 20px",backgroundColor: "#ebeef6"}}>
+          <OnlineMembers />
+          <TrafficGraph />
+          <SocialStatics />
+        </div>
       </div>
     </div>
-  )
+  );
 }

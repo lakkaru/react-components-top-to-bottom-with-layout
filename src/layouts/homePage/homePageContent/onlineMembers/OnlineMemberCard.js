@@ -6,7 +6,7 @@ import OnlineMemeberCount from "../../../../components/onlineMembersCard/OnlineM
 export default function OnlineMemberCard({memCount, bgColor}) {
   return (
     
-    <div style={{margin:'10px', backgroundColor:bgColor, borderRadius:'5px', width:'25%'}}>
+    <div style={{marginTop:'10px', backgroundColor:bgColor, borderRadius:'5px', width:'23%'}}>
       <div style={{display:'flex', justifyContent:'space-between'}}>
         <OnlineMemeberCount count={memCount} />
         <OnlineMembersSettings />
