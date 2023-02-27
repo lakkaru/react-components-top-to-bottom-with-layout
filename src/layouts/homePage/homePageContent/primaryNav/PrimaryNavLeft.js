@@ -1,5 +1,5 @@
 import React from 'react'
-import PrimaryNavLeftLink from './primaryNavLeft/PrimaryNavLeftLink'
+import PrimaryNavLeftLink from '../../../../components/primaryNavLeft/PrimaryNavLeftLink'
 
 export default function PrimaryNavLeft() {
   return (

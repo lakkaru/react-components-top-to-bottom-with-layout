@@ -1,5 +1,5 @@
 import React from 'react'
-import PrimaryNavRightIcon from './primaryNavRight/PrimaryNavRightIcon'
+import PrimaryNavRightIcon from '../../../../components/primaryNavRight/PrimaryNavRightIcon'
 
 export default function PrimaryNavRight() {
   return (
