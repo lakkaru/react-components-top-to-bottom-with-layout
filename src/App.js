@@ -4,7 +4,7 @@ import HomePage from "./layouts/HomePage";
 const test = 10;
 function App(value) {
   return (
-    <div className="App">
+    <div className="App" >
      <HomePage/>
     </div>
   );
