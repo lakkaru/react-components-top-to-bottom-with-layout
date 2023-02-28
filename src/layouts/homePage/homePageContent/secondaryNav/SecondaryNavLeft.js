@@ -1,5 +1,5 @@
 import React from 'react'
-import SecondaryNavLeftText from './secondaryNavLeft/SecondaryNavLeftText'
+import SecondaryNavLeftText from '../../../../components/secondaryNavLeft/SecondaryNavLeftText'
 
 export default function SecondaryNavLeft() {
   return (

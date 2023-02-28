@@ -1,5 +1,5 @@
 import React from 'react'
-import SecondaryNavRightIcon from './secondaryNavRight/SecondaryNavRightIcon'
+import SecondaryNavRightIcon from '../../../../components/secondaryNavRight/SecondaryNavRightIcon'
 
 export default function SecondaryNavRight() {
   return (

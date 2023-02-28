@@ -1,6 +1,6 @@
 import React from "react";
-import SocialIcon from "./socialStaticsCard/SocialIcon";
-import SocialStat from "./socialStaticsCard/SocialStat";
+import SocialIcon from "../../../../components/socialStaticsCard/SocialIcon";
+import SocialStat from "../../../../components/socialStaticsCard/SocialStat";
 
 export default function SocialStaticsCard({color, icon, count1, count2, cat1, cat2}) {
   return (
